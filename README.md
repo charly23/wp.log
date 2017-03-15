@@ -1,8 +1,12 @@
 # wp.log
 
-UN: my.log
-PW: rQOO&tWtI(Ab162cvy
-EM: charlycapillanes@gmail.com
+Credentials
+
+- UN: my.log
+- PW: rQOO&tWtI(Ab162cvy
+- EM: charlycapillanes@gmail.com
+
+-------------------------------------------------------------
 
 - 92% done
 - all responsive bootstrap standard
