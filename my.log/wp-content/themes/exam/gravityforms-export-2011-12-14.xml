@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.6.2">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Contact Us]]></title>
+		<description><![CDATA[We would love to hear from you! Please fill out this form and we will get in touch with you shortly.]]></description>
+		<confirmation type="message">
+			<message><![CDATA[Thank you for contacting us! We will get in touch with you shortly.]]></message>
+		</confirmation>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="1" isRequired="1" size="medium" type="text">
+				<label><![CDATA[Name]]></label>
+			</field>
+			<field id="2" size="medium" type="text">
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="3" isRequired="1" size="medium" type="email">
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="4" size="medium" type="text">
+				<label><![CDATA[Subject]]></label>
+			</field>
+			<field id="5" size="medium" type="textarea">
+				<label><![CDATA[Message]]></label>
+			</field>
+			<field id="6" type="hidden" size="medium">
+				<label><![CDATA[URL]]></label>
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+			</field>
+		</fields>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<enableHoneypot><![CDATA[1]]></enableHoneypot>
+		<notification>
+			<to><![CDATA[support@titaninteractive.com.au]]></to>
+			<subject><![CDATA[New submission from {form_title}]]></subject>
+			<message><![CDATA[{all_fields}]]></message>
+		</notification>
+	</form>
+</forms>

@@ -1,0 +1,9 @@
+Developer notes:
+----------------
+Use this file to add any development comments or plugin core changes.
+i.e. 
+Business Details plugin - Editor role access
+Code line 81
+wp-content\plugins\titan-business-details\titan-business-details.php
+add_submenu_page( $this->titan_plugin_name, $this->titan_plugin_name.' List', 'Edit Business', 'edit_pages', 'edit-business-details', array($this,'titan_options_page')); 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------

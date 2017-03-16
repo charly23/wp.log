@@ -1,0 +1,18 @@
+/*
+Theme Name: Plonta reative
+Theme URI: http://plontacreative.com
+Description: Plonta reative
+Version: 1.0
+Author: Plonta reative
+Author URI: http://plontacreative.com
+Tags: Plonta reative
+
+	This theme was designed and built by Plonta reative
+
+*/
+
+/*CSS*/
+@import url( 'css/reset.css' );
+@import url( 'css/structure.css' );
+@import url( 'css/style.css' );
+@import url( 'css/form.css' );
